@@ -1,0 +1,7 @@
+pipenv instrall django
+django-admin startproject djangolearn
+
+python manage.py runserver
+pipenv --venv 
+
+C:\Users\yeqin\.virtualenvs\djangolearn-1cGFdNgM/bin/python
