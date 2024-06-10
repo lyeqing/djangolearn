@@ -9,5 +9,6 @@ router.register(r'person', views.PersonViewSet)
 router.register(r'activities', views.ActivityViewSet)
 
 urlpatterns = [
+    path('dbtest', views.say),
     path('', include(router.urls)),
 ]
